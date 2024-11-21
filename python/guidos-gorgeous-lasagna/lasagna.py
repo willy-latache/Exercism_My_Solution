@@ -7,13 +7,9 @@ This is a module docstring, used to describe the functionality
 of a module and its functions and/or classes.
 """
 
-
-#TODO: define the 'EXPECTED_BAKE_TIME' constant below.
 EXPECTED_BAKE_TIME = 40
 PREPARATION_TIME = 2
 
-
-#TODO: Remove 'pass' and complete the 'bake_time_remaining()' function below.
 def bake_time_remaining(elapsed_bake_time: int):
     """Calculate the bake time remaining.
 
@@ -51,7 +47,3 @@ def elapsed_time_in_minutes(number_of_layers, elapsed_bake_time):
     lasagna.
     """
     return (preparation_time_in_minutes(number_of_layers) + bake_time_remaining(elapsed_bake_time))
-
-
-# TODO: Remember to go back and add docstrings to all your functions
-#  (you can copy and then alter the one from bake_time_remaining.)
